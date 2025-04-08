@@ -5,5 +5,5 @@ I also downloaded a wordlist of all possible file names and directories that can
 
 I ran Linux from my Command line and typed in the code `./feroxbuster -u https://0ad8008b048b474cd15aef9200b800e0.web-security-academy.net -w Desktop/common.txt`.
 
-The command Line procedeed to list me all possible file names and directories given the chosen wordlist from `common-txt`. After analazing the file names, i decided to open the file `https://0ad8008b048b474cd15aef9200b800e0.web-security-academy.net/cgi-bin` which led to a file named `phpinfo.php`, and subsequently opening a Tab with sensitive and detailed information about the PHP environment that the server is using. This revealed our first sensitive information and vulnerability.
+The command Line procedeed to list me all possible file names and directories given the chosen wordlist from `common-txt`. After analazing the file names, i decided to open the file `https://0ad8008b048b474cd15aef9200b800e0.web-security-academy.net/cgi-bin` which led to a file named `phpinfo.php`, and subsequently opening a Tab with sensitive and detailed information about the PHP environment that the server is using. This revealed our first sensitive information and vulnerability, thus representing a security risk.
 
